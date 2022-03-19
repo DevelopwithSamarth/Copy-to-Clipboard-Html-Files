@@ -1,0 +1,55 @@
+body {
+				align-items: center;
+				text-align: center;
+}
+.titles
+{
+				text-align: center;
+				border-bottom: 5px dashed black;
+				border-top: 5px dashed;
+				border-left: 5px solid;
+				border-right: 5px solid;
+				align-items: center;
+		  	
+}
+.input 
+{
+				justify-content: center;
+		   margin: auto;
+}
+.textInput , #check
+{
+				position: relative;
+				width: 300px;
+				outline-color: red;
+}
+
+.textInput , #check::placeholder
+{
+				text-align: center;
+}
+#texttocopy , #check:hover::placeholder
+{
+			  color: red;
+}
+#Btn
+{
+				border-radius: 5px;
+				border: none;
+				background-color:black ;
+				color: whitesmoke;
+				transition: 1s;
+				margin-left: ;
+			 font-size: 15px;
+			 width: 300px;
+}
+#Btn:hover
+{
+			font-size: 20px;
+}
+@media screen and (min-width: 700px){
+				.titles{
+								
+								padding: 00px;
+				}
+}
